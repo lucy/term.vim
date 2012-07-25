@@ -15,8 +15,12 @@ hi NonText        ctermfg=8
 hi DiffAdd        ctermfg=43
 hi DiffChange     ctermfg=75
 hi DiffDelete     ctermfg=63
-hi DiffText       ctermfg=9 
+hi DiffText       ctermfg=9
 
+hi DiffAdd        ctermbg=none
+hi DiffChange     ctermbg=none
+hi DiffDelete     ctermbg=none
+hi DiffText       ctermbg=none
 
 if &t_Co > 255
     hi LineNr         ctermfg=249
