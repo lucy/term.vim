@@ -7,6 +7,10 @@ syntax reset
 set background=light
 let g:colors_name="term"
 
+hi WildMenu        ctermfg=14  ctermbg=0
+hi StatusLine      ctermfg=8   ctermbg=0    cterm=bold 
+
+
 hi CursorLine                  ctermbg=0    cterm=NONE
 hi Statement       ctermfg=3
 hi Folded          ctermfg=12  ctermbg=0
