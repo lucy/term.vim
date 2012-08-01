@@ -9,7 +9,7 @@ let g:colors_name="term"
 
 hi WildMenu        ctermfg=14  ctermbg=0
 hi StatusLine      ctermfg=8   ctermbg=0    cterm=bold 
-
+hi Search                      ctermbg=11   guibg=white
 
 hi CursorLine                  ctermbg=0    cterm=NONE
 hi Statement       ctermfg=3
@@ -28,4 +28,3 @@ if &t_Co > 255
     hi LineNr          ctermfg=249
     hi CursorLineNr    ctermfg=252 ctermbg=0
 end
-hi Search term=reverse ctermbg=11 guibg=white
