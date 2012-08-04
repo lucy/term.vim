@@ -8,6 +8,7 @@ set background=light
 let g:colors_name="term"
 
 hi WildMenu        ctermfg=14  ctermbg=0
+hi StatusLineNC                             cterm=none
 hi StatusLine      ctermfg=8   ctermbg=0    cterm=bold 
 hi Search          ctermfg=15  ctermbg=8
 
@@ -17,6 +18,7 @@ hi Folded          ctermfg=12  ctermbg=0
 hi NonText         ctermfg=8
 
 hi VertSplit       ctermfg=11               cterm=none
+hi SignColumn      ctermfg=14  ctermbg=0
 
 hi visual          ctermfg=0   ctermbg=6
 
