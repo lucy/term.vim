@@ -12,6 +12,9 @@ hi StatusLineNC                             cterm=none
 hi StatusLine      ctermfg=8   ctermbg=0    cterm=bold 
 hi Search          ctermfg=15  ctermbg=8
 
+hi LineNr          ctermfg=7
+hi CursorLineNr    ctermfg=15  ctermbg=0
+
 hi CursorLine                  ctermbg=0    cterm=none
 hi Statement       ctermfg=3
 hi Folded          ctermfg=12  ctermbg=0
@@ -26,9 +29,3 @@ hi diffadd         ctermfg=14  ctermbg=none
 hi diffchange      ctermfg=12  ctermbg=none
 hi DiffDelete      ctermfg=10  ctermbg=none
 hi DiffText        ctermfg=9   ctermbg=none
-
-
-if &t_Co > 255
-    hi LineNr          ctermfg=249
-    hi CursorLineNr    ctermfg=252 ctermbg=0
-end
