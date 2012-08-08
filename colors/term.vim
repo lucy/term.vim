@@ -19,7 +19,7 @@ hi Statement       ctermfg=3
 hi Folded          ctermfg=12  ctermbg=0
 hi NonText         ctermfg=8
 
-hi VertSplit       ctermfg=11               cterm=none
+hi VertSplit       ctermfg=8               cterm=none
 hi SignColumn      ctermfg=14  ctermbg=0
 
 hi visual          ctermfg=0   ctermbg=6
