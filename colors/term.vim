@@ -9,6 +9,7 @@ let g:colors_name="term"
 
 hi WildMenu        ctermfg=14  ctermbg=0
 hi StatusLine      ctermfg=8   ctermbg=0    cterm=bold 
+hi StatusLineNC    ctermfg=0
 hi Search          ctermfg=15  ctermbg=8
 
 hi LineNr          ctermfg=7
