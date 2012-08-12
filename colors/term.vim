@@ -30,7 +30,7 @@ hi SignColumn   ctermfg=14   ctermbg=0
 
 hi visual       ctermfg=0    ctermbg=6
 
-hi diffadd      ctermfg=14   ctermbg=none
-hi diffchange   ctermfg=12   ctermbg=none
+hi DiffAdd      ctermfg=14   ctermbg=none
+hi DiffChange   ctermfg=12   ctermbg=none
 hi DiffDelete   ctermfg=10   ctermbg=none
 hi DiffText     ctermfg=9    ctermbg=none
