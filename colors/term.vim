@@ -15,12 +15,12 @@ hi SpellBad     ctermfg=9    ctermbg=none
 
 " Highlight
 hi Search       ctermfg=15   ctermbg=8
-hi Visual       ctermfg=0    ctermbg=6
+hi Visual       ctermfg=6    ctermbg=none cterm=reverse
 
 " Lines
 hi CursorLine                ctermbg=234  cterm=bold
-hi CursorLineNr ctermfg=15   ctermbg=234
-hi LineNr       ctermfg=7
+hi CursorLineNr ctermfg=15   ctermbg=0
+hi LineNr       ctermfg=7    ctermbg=234
 
 " Splits
 hi SignColumn   ctermfg=14   ctermbg=0
