@@ -23,7 +23,7 @@ hi CursorLineNr ctermfg=15   ctermbg=0
 hi LineNr       ctermfg=7    ctermbg=234
 
 " Splits
-hi SignColumn   ctermfg=14   ctermbg=0
+hi SignColumn                ctermbg=none
 hi VertSplit    ctermfg=8                 cterm=none
 
 " Status line
