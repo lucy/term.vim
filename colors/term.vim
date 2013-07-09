@@ -16,6 +16,7 @@ hi SpellBad     ctermfg=9    ctermbg=none
 " Highlight
 hi Search       ctermfg=15   ctermbg=8
 hi Visual       ctermfg=6    ctermbg=none cterm=reverse
+hi MatchParen   ctermfg=12   ctermbg=none cterm=reverse
 
 " Lines
 hi CursorLine                ctermbg=234  cterm=bold
