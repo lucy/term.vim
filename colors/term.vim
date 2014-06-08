@@ -20,7 +20,7 @@ hi Visual       ctermfg=6    ctermbg=none cterm=reverse
 hi MatchParen   ctermfg=12   ctermbg=none cterm=reverse
 
 " Lines
-hi CursorLine                             cterm=bold
+hi CursorLine                             cterm=none
 hi CursorLineNr ctermfg=7
 hi LineNr       ctermfg=8
 
@@ -44,4 +44,3 @@ hi DiffAdd      ctermfg=14   ctermbg=none
 hi DiffChange   ctermfg=12   ctermbg=none
 hi DiffDelete   ctermfg=10   ctermbg=none
 hi DiffText     ctermfg=9    ctermbg=none
-
