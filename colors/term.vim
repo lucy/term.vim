@@ -4,8 +4,10 @@ set background=light
 let g:colors_name="term"
 
 " Code
-hi Folded       ctermfg=12   ctermbg=0
+hi Folded       ctermfg=8    ctermbg=none
+hi FoldColumn                ctermbg=none
 hi NonText      ctermfg=8
+hi SpecialKey   ctermfg=0
 hi Statement    ctermfg=3
 hi Normal       ctermfg=7
 
@@ -19,14 +21,14 @@ hi MatchParen   ctermfg=12   ctermbg=none cterm=reverse
 
 " Lines
 hi CursorLine                             cterm=bold
-hi CursorLineNr ctermfg=15   ctermbg=0
-hi LineNr       ctermfg=7
+hi CursorLineNr ctermfg=7
+hi LineNr       ctermfg=8
 
 " Splits
 hi SignColumn                ctermbg=none
 hi VertSplit    ctermfg=8                 cterm=none
 
-" Status line
+" Status line / related
 hi StatusLine   ctermfg=8    ctermbg=0    cterm=bold
 hi StatusLineNC ctermfg=0
 hi WildMenu     ctermfg=14   ctermbg=0
