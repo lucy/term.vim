@@ -30,7 +30,7 @@ hi VertSplit    ctermfg=8                 cterm=none
 
 " Status line / related
 hi StatusLine   ctermfg=8    ctermbg=0    cterm=none
-hi StatusLineNC ctermfg=7
+hi StatusLineNC ctermfg=0
 hi WildMenu     ctermfg=15   ctermbg=0    cterm=none
 hi ModeMsg      ctermfg=7    ctermbg=none cterm=none
 
