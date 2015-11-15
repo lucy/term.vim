@@ -29,9 +29,10 @@ hi SignColumn                ctermbg=none
 hi VertSplit    ctermfg=8                 cterm=none
 
 " Status line / related
-hi StatusLine   ctermfg=8    ctermbg=0    cterm=bold
-hi StatusLineNC ctermfg=0
-hi WildMenu     ctermfg=14   ctermbg=0
+hi StatusLine   ctermfg=8    ctermbg=0    cterm=none
+hi StatusLineNC ctermfg=7
+hi WildMenu     ctermfg=15   ctermbg=0    cterm=none
+hi ModeMsg      ctermfg=7    ctermbg=none cterm=none
 
 " Tabs
 hi TabLine      ctermfg=none ctermbg=none cterm=none
