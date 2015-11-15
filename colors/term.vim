@@ -44,3 +44,8 @@ hi DiffAdd      ctermfg=14   ctermbg=none
 hi DiffChange   ctermfg=12   ctermbg=none
 hi DiffDelete   ctermfg=10   ctermbg=none
 hi DiffText     ctermfg=9    ctermbg=none
+
+" Errors
+hi Error        ctermfg=15   ctermbg=1
+hi ErrorMsg     ctermfg=15   ctermbg=1
+hi WarningMsg   ctermfg=15   ctermbg=3
