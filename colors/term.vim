@@ -18,6 +18,7 @@ hi SpellBad     ctermfg=9    ctermbg=none
 hi Search       ctermfg=15   ctermbg=8
 hi Visual       ctermfg=6    ctermbg=none cterm=reverse
 hi MatchParen   ctermfg=12   ctermbg=none cterm=reverse
+hi ColorColumn               ctermbg=0    cterm=none
 
 " Lines
 hi CursorLine                             cterm=none
@@ -29,8 +30,8 @@ hi SignColumn                ctermbg=none
 hi VertSplit    ctermfg=8                 cterm=none
 
 " Status line / related
-hi StatusLine   ctermfg=8    ctermbg=0    cterm=none
-hi StatusLineNC ctermfg=0
+hi StatusLine   ctermfg=7    ctermbg=none cterm=none
+hi StatusLineNC ctermfg=8                 cterm=none
 hi WildMenu     ctermfg=15   ctermbg=0    cterm=none
 hi ModeMsg      ctermfg=7    ctermbg=none cterm=none
 
@@ -47,6 +48,6 @@ hi DiffDelete   ctermfg=10   ctermbg=none
 hi DiffText     ctermfg=9    ctermbg=none
 
 " Errors
-hi Error        ctermfg=15   ctermbg=1
-hi ErrorMsg     ctermfg=15   ctermbg=1
-hi WarningMsg   ctermfg=15   ctermbg=3
+hi Error        ctermfg=1    ctermbg=none cterm=reverse
+hi ErrorMsg     ctermfg=1    ctermbg=none cterm=reverse
+hi WarningMsg   ctermfg=3    ctermbg=none cterm=reverse
