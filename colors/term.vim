@@ -34,7 +34,7 @@ hi StatusLine   ctermfg=7    ctermbg=none cterm=none
 hi StatusLineNC ctermfg=8                 cterm=none
 hi WildMenu     ctermfg=15   ctermbg=0    cterm=none
 hi ModeMsg      ctermfg=8    ctermbg=none cterm=none
-hi User1        ctermfg=8    ctermbg=none cterm=none
+hi User1        ctermfg=7    ctermbg=none cterm=none
 
 " Tabs
 hi TabLine      ctermfg=8    ctermbg=none cterm=none
