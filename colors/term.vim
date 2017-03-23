@@ -51,3 +51,7 @@ hi DiffText     ctermfg=9    ctermbg=none
 hi Error        ctermfg=1    ctermbg=15 cterm=reverse
 hi ErrorMsg     ctermfg=1    ctermbg=15 cterm=reverse
 hi WarningMsg   ctermfg=3    ctermbg=15 cterm=reverse
+
+" Spelling/syntastic
+hi SpellBad     ctermfg=1    ctermbg=15 cterm=reverse
+hi SpellCap     ctermfg=3    ctermbg=15 cterm=reverse
