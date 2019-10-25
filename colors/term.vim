@@ -22,7 +22,7 @@ hi ColorColumn               ctermbg=0    cterm=none
 
 " Lines
 hi CursorLine                             cterm=none
-hi CursorLineNr ctermfg=7
+hi CursorLineNr ctermfg=7                 cterm=none
 hi LineNr       ctermfg=8
 
 " Splits
